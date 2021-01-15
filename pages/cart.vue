@@ -19,12 +19,12 @@
               <span v-if="item.options">- {{ item.options }}</span>
             </td>
             <td>
-              <span v-for="addon in item.addOns" :key="addon" class="comma">{{
+              <span v-for="addon in item.addons" :key="addon" class="comma">{{
                 addon
               }}</span>
             </td>
             <td>{{ item.count }}</td>
-            <td>{{ item.combinedPrice }}</td>
+            <td>{{ item.combinePrice }}</td>
           </tr>
           <tr>
             <td colspan="3"></td>
